@@ -230,6 +230,7 @@ select {
   border: none;
   resize: none;
   scrollbar-width: none;
+  flex-grow: 2;
 }
 .chatbox-message-input::-webkit-scrollbar {
   display: none;
