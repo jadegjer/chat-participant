@@ -108,7 +108,7 @@ function autoReply() {
         autoReplyIndex++;
 
         // Calculate delay based on the length of the message
-        const messageDelay = message.length * 200 + 200; // Adjust the multiplier as needed
+        const messageDelay = message.length * 100 + 200; // Adjust the multiplier as needed
 
         // Set timeout to send the message after the calculated delay
         setTimeout(function() {
